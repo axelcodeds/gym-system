@@ -1,0 +1,22 @@
+# ======================================
+# Local Development Configuration
+# ======================================
+# Copy this file to application-local.properties and fill in your values
+# application-local.properties is ignored by git
+
+# Database credentials
+spring.datasource.url=jdbc:postgresql://localhost:5432/gymdb
+spring.datasource.username=gymadmin
+spring.datasource.password=your_password_here
+
+# JWT Configuration (when implemented)
+# jwt.secret=your-256-bit-secret-key-here-make-it-long-and-secure
+# jwt.expiration=86400000
+
+# Google OAuth (when implemented)
+# spring.security.oauth2.client.registration.google.client-id=your-google-client-id
+# spring.security.oauth2.client.registration.google.client-secret=your-google-client-secret
+
+# Stripe (when implemented)
+# stripe.secret-key=sk_test_xxx
+# stripe.webhook-secret=whsec_xxx
